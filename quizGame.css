@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  padding: 7px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px wheat;
+}
+
+.button:hover {background-color: moccasin}
+
+.button:active {
+  background-color: moccasin;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
